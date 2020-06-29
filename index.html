@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+        <h1 class="text-center text-primary my-5">Add new Product</h1>
+        <div class="w-75 m-auto">
+            <div class="form-group p-2">
+                <input id="pName" class="form-control" placeholder="productName">
+            </div>
+        
+            <div class="form-group p-2">
+                <input id="desc" class="form-control" placeholder="description">
+            </div>
+        
+            <div class="form-group p-2">
+                <input id="price" class="form-control" placeholder="Price">
+            </div>
+        
+            <div class="form-group p-2">
+                <input id="cat" class="form-control" placeholder="Category">
+            </div>
+        
+        <!--    <div class="form-group p-2">
+                <input type="file" id="pImage" class="form-control" placeholder="Enter image path">
+            </div> -->          
+            <button onclick="addProduct()" id="Add" class="btn btn-primary mx-2 my-3">Add Product</button>
+            <button onclick="" id="update" class="btn btn-outline-warning mx-2 my-3">Update Product</button>    
+            <div class="clear-fix"></div>
+        </div>
+
+        <input onkeyup="search(this.value)" class="form-control w-50 m-auto my-5 bg-success" placeholder="enter your word for search">
+        
+        <div class="container">
+            <h1 class="text-center text-primary my-5">Our Products</h1>
+            <div id="demo" class="row">       
+            </div>
+        </div> 
+        <script src="js/main.js"></script>
+     <!--  <script src="js/jquery.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script> --> 
+    </body>

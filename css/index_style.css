@@ -1,0 +1,18 @@
+.forSpan{
+    position: absolute;
+    top: 0.25%;
+    right: 6%;
+    background-color: blue;
+    border: 2px black solid;
+    color: cornsilk;
+
+}
+.cat{
+    font-size: 16px;
+}
+.clr{
+    clear: both;
+}
+#update{
+    display: none;
+}
